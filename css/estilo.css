@@ -1,0 +1,206 @@
+* {
+	margin: 500;
+	padding: 50;
+	box-sizing: border-box;
+}
+
+.contenedor { 
+	max-width: 1000px;
+	width: 800%;
+	margin: 0 auto;
+}
+
+body{
+	background-color: azure;
+	font-family: 'Times New Roman', Times, serif;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+.subtitulo{
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	color: blueviolet;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	color: blueviolet;
+}
+.NombrePagina{
+	transform: scale(2,1);
+	animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+ }
+ 
+h2{
+	font-weight: bold;
+	text-align: center;
+	color: #403CC2;
+}
+h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor__cards {
+	margin: 20px 0;
+}
+.card {
+	background: #FFF;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 1px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 1px;
+}
+
+.card__parrafo {
+	line-height: 1.6;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: medium;
+	color: black;
+	font-weight: bold;
+}
+
+.card__thumbnail {
+	margin-right: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.card__img {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	transform: rotateY(45deg);
+	
+}
+
+.card__titulo {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: brown;
+			
+}
+
+.card__enlace {
+	color: #000;
+}
+
+.card__extracto {
+	line-height: 28px;
+	color: brown;
+	margin-bottom: 20px;
+	   
+}
+#grad {
+	background: linear-gradient(red, pink);
+}
+.frase {
+	text-align: center;
+	margin: 70px 0;
+}
+
+.frase__texto {
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600
+	font-style italic;
+}
+
+.bordesredondeados{
+	border-radius: 20px;
+}
+.imgChica{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 40%;
+}
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    height: 100vh;
+    margin: 0;
+}
+
+.border__grids {
+    border: 1px solid black;
+    background: silver;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+	text-align: center;
+}
+
+section#productos {
+    grid-area: productos;
+    background-color: rgb(25, 8, 97);
+    text-align: center;
+}
+
+img{
+    width: 400px;
+}
+
+section#servicios {
+    grid-area: servicios;
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: publicidad;
+}
+
+.grid-item {
+    background: pink;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.h1__grids {
+    text-align: center;
+}
+
+

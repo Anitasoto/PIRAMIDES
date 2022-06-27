@@ -1,0 +1,173 @@
+.btn-group {
+	background-color: coral;
+	border-color: brown;
+	border-style: solid;
+}
+.contenedor { 
+	max-width: 1000px;
+	width: 800%;
+	margin: 0 auto;
+}
+
+.contenedor__cards {
+	margin: 20px 0;
+}
+
+.card {
+	background: #FFF;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 1px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 1px;
+}
+
+.card__thumbnail {
+	margin-right: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.card__img {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	transform: rotateY(45deg);
+}
+
+.card__titulo {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: chocolate;
+			
+}
+
+.card__enlace {
+	color: #000;
+}
+
+.card__extracto {
+	line-height: 28px;
+	color: #6D6D6D;
+	margin-bottom: 20px;
+	   
+}
+#grad {
+	background: linear-gradient(red, pink);
+}
+
+
+.card__parrafo{
+	line-height: 1.6;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: medium;
+}
+.boton {
+	border: none;
+	font-size: 12px;
+	min-width: 180px;
+	height: 50px;
+	padding: 15px 32px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 16px;
+	text-decoration: none;
+	justify-content: space-between;
+	align-items: center;
+	background: crimson;
+	transition: .3s ease all;
+}
+
+.boton__texto {
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.boton:hover {
+	background: brown;
+	text-decoration: none;
+}
+
+.boton--absolute {
+	position: right;
+	right: 40px;
+	bottom: -40px;
+}
+
+.boton--coral{
+	background-color: coral;
+}
+
+.frase {
+	text-align: center;
+	margin: 70px 0;
+}
+
+.frase__texto {
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600
+	font-style italic;
+}
+
+.bordesredondeados{
+	border-radius: 20px;
+}
+.imgChica{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 40%;
+}
+h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table{
+	width: 100%;
+	border: black;
+	background-color: lightblue;
+	border-style: solid; 
+}
+table, th, td {
+	border: 1px solid black;
+	font-family: 'Times New Roman', Times, serif;
+  }
+
+  .ul {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: #3399ff;
+	padding: 20px;
+}
+	
+.ul li {
+	background: #cce5ff;
+	margin: 5px;
+	
+}
+
+
+.form{
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	font-family: 'Times New Roman', Times, serif;
+	width: 80%;
+		
+}
+legend, label, input, select, option {
+	flex: 1;
+	padding: 1px;
+	margin: 1px;
+}
+footer{
+	font-size: smaller;
+	text-align: center;
+}
